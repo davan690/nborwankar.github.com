@@ -1,146 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Nitin Borwankar's blog</title>
-  <meta name="author" content="Nitin Borwankar">
-
-  
-  <meta name="description" content="
-">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://nborwankar.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Nitin Borwankar's blog" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Nitin Borwankar's blog</a></h1>
-  
-    <h2>About code and other things.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:nborwankar.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Category: lessons | Nitin Borwankar's blog]]></title>
+  <link href="http://nborwankar.github.com/blog/categories/lessons/atom.xml" rel="self"/>
+  <link href="http://nborwankar.github.com/"/>
+  <updated>2012-12-29T02:09:35-08:00</updated>
+  <id>http://nborwankar.github.com/</id>
+  <author>
+    <name><![CDATA[Nitin Borwankar]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2012/12/30/hello-world/">Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-12-30T00:00:00-08:00" pubdate data-updated="true">Dec 30<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/12/29/jekyll-introduction/">Jekyll Introduction</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-12-29T00:00:00-08:00" pubdate data-updated="true">Dec 29<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Included file &#8216;JB/setup&#8217; not found in _includes directory</p>
+  <entry>
+    <title type="html"><![CDATA[Jekyll Introduction]]></title>
+    <link href="http://nborwankar.github.com/blog/2011/12/29/jekyll-introduction/"/>
+    <updated>2011-12-29T00:00:00-08:00</updated>
+    <id>http://nborwankar.github.com/blog/2011/12/29/jekyll-introduction</id>
+    <content type="html"><![CDATA[<p>Included file 'JB/setup' not found in _includes directory</p>
 
 <p>This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
-Directly following the intro we&#8217;ll learn exactly <em>how</em> Jekyll does what it does.</p>
+Directly following the intro we'll learn exactly <em>how</em> Jekyll does what it does.</p>
 
 <h2>Overview</h2>
 
 <h3>What is Jekyll?</h3>
 
 <p>Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
-dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &#8220;a simple, blog aware, static site generator&#8221;.</p>
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".</p>
 
 <h3>Examples</h3>
 
@@ -202,7 +90,7 @@ help you better understand the code examples contained throughout Jekyll-Bootstr
 
 <h2>Initial Setup</h2>
 
-<p>After <a href="/index.html#start-now">installing jekyll</a> you&#8217;ll need to format your website directory in a way jekyll expects.
+<p>After <a href="/index.html#start-now">installing jekyll</a> you'll need to format your website directory in a way jekyll expects.
 Jekyll-bootstrap conveniently provides the base directory format.</p>
 
 <h3>The Jekyll Application Base Format</h3>
@@ -256,7 +144,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
 <h2>Content in Jekyll</h2>
 
 <p>Content in Jekyll is either a post or a page.
-These content &#8220;objects&#8221; get inserted into one or more templates to build the final output for its respective static-page.</p>
+These content "objects" get inserted into one or more templates to build the final output for its respective static-page.</p>
 
 <h3>Posts and Pages</h3>
 
@@ -282,14 +170,14 @@ Only reverse chronological and chronological ordering is supported in Jekyll.</p
 
 <p><strong>Tags</strong> <br/>
 Posts can have tags associated with them as part of their meta-data.
-Tags may be placed on posts by providing them in the post&#8217;s YAML front matter.
+Tags may be placed on posts by providing them in the post's YAML front matter.
 You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.</p>
 
 <p><strong>Categories</strong> <br/>
 Posts may be categorized by providing one or more categories in the YAML front matter.
 Categories offer more significance over tags in that they can be reflected in the URL path to the given post.
 Note categories in Jekyll work in a specific way.
-If you define more than one category you are defining a category hierarchy &#8220;set&#8221;.
+If you define more than one category you are defining a category hierarchy "set".
 Example:</p>
 
 <pre><code>---
@@ -298,8 +186,8 @@ categories : [lessons, beginner]
 ---
 </code></pre>
 
-<p>This defines the category hierarchy &#8220;lessons/beginner&#8221;. Note this is <em>one category</em> node in Jekyll.
-You won&#8217;t find &#8220;lessons&#8221; and &#8220;beginner&#8221; as two separate categories unless you define them elsewhere as singular categories.</p>
+<p>This defines the category hierarchy "lessons/beginner". Note this is <em>one category</em> node in Jekyll.
+You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.</p>
 
 <h3>Working With Pages</h3>
 
@@ -341,7 +229,7 @@ A nice about page is easy to do and gives the human perspective to your website.
 
 <h2>Templates in Jekyll</h2>
 
-<p>Templates are used to contain a page&#8217;s or post&#8217;s content.
+<p>Templates are used to contain a page's or post's content.
 All templates have access to a global site object variable: <code>site</code> as well as a page object variable: <code>page</code>.
 The site variable holds all accessible content and metadata relative to the site.
 The page variable holds accessible data for the given page or post being rendered at that point.</p>
@@ -351,19 +239,20 @@ Templates are created by properly formatting a file and placing it in the <code>
 
 <p><strong>Formatting</strong><br/>
 Templates should be coded in HTML and contain YAML Front Matter.
-All templates can contain Liquid code to work with your site&#8217;s data.</p>
+All templates can contain Liquid code to work with your site's data.</p>
 
 <p><strong>Rending Page/Post Content in a Template</strong><br/>
 There is a special variable in all templates named : <code>content</code>.
 The <code>content</code> variable holds the page/post content including any sub-template content previously defined.
 Render the content variable wherever you want your main content to be injected into your template:</p>
 
-<p>Included file &#8216;JB/liquid_raw&#8217; not found in _includes directory</p>
+<p>
+Included file 'JB/liquid_raw' not found in _includes directory</p>
 
 <h3>Sub-Templates</h3>
 
 <p>Sub-templates are exactly templates with the only difference being they
-define another &#8220;root&#8221; layout/template within their YAML Front Matter.
+define another "root" layout/template within their YAML Front Matter.
 This essentially means a template will render inside of another template.</p>
 
 <h3>Includes</h3>
@@ -396,10 +285,10 @@ GitHub cannot afford to run arbitrary code on their servers so they lock develop
 <h3>Liquid is Not Programmer-Friendly.</h3>
 
 <p>The short story is liquid is not real code and its not intended to execute real code.
-The point being you can&#8217;t do jackshit in liquid that hasn&#8217;t been allowed explicitly by the implementation.
-What&#8217;s more you can only access data-structures that have been explicitly passed to the template.</p>
+The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation.
+What's more you can only access data-structures that have been explicitly passed to the template.</p>
 
-<p>In Jekyll&#8217;s case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins.
+<p>In Jekyll's case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins.
 Both of which cannot be supported by GitHub Pages.</p>
 
 <p>As a programmer - this is very frustrating.</p>
@@ -408,9 +297,9 @@ Both of which cannot be supported by GitHub Pages.</p>
 suck it up and view it as an opportunity to work around limitations and adopt client-side solutions when possible.</p>
 
 <p><strong>Aside</strong> <br/>
-My personal stance is to not invest time trying to hack liquid. It&#8217;s really unnecessary
-<em>from a programmer&#8217;s</em> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code)
-you are better off sticking with ruby. Toward that end I&#8217;ve built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a></p>
+My personal stance is to not invest time trying to hack liquid. It's really unnecessary
+<em>from a programmer's</em> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code)
+you are better off sticking with ruby. Toward that end I've built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a></p>
 
 <h2>Static Assets</h2>
 
@@ -448,7 +337,7 @@ Jekyll untouched and reside on your blog in the exact structure and format they 
 
 <h3>Formatting Files for Parsing.</h3>
 
-<p>We&#8217;ve outlined the need for valid formatting using <strong>YAML Front Matter</strong>.
+<p>We've outlined the need for valid formatting using <strong>YAML Front Matter</strong>.
 Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty.
 This is the only way Jekyll knows you want the file processed.</p>
 
@@ -473,12 +362,12 @@ The data inside the block must be valid YAML.</p>
 
 <p>The <code>layout</code> parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
 If a template file specifies its own layout, it is effectively being used as a <code>sub-template.</code>
-That is to say loading a post file into a template file that refers to another template file with work in the way you&#8217;d expect; as a nested sub-template.</p>
+That is to say loading a post file into a template file that refers to another template file with work in the way you'd expect; as a nested sub-template.</p>
 
 <h2>How Jekyll Generates the Final Static Files.</h2>
 
-<p>Ultimately, Jekyll&#8217;s job is to generate a static representation of your website.
-The following is an outline of how that&#8217;s done:</p>
+<p>Ultimately, Jekyll's job is to generate a static representation of your website.
+The following is an outline of how that's done:</p>
 
 <ol>
 <li><p><strong>Jekyll collects data.</strong> <br/>
@@ -489,18 +378,18 @@ big <code>site</code> object that holds all the posts, pages, layouts, and respe
 At this stage your site is one big computed ruby object.</p></li>
 <li><p><strong>Jekyll liquifies posts and templates.</strong><br/>
 Next jekyll loops through each post file and converts (through markdown or textile) and <strong>liquifies</strong> the post inside of its respective layout(s).
-Once the post is parsed and liquified inside the the proper layout structure, the layout itself is &#8220;liquified&#8221;. <br/>
+Once the post is parsed and liquified inside the the proper layout structure, the layout itself is "liquified". <br/>
  <strong>Liquification</strong> is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler
 hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.</p></li>
 <li><p><strong>Jekyll generates output.</strong> <br/>
- Finally the liquid templates are &#8220;rendered&#8221;, thereby processing any liquid syntax provided in the templates
+ Finally the liquid templates are "rendered", thereby processing any liquid syntax provided in the templates
  and saving the final, static representation of the file.</p></li>
 </ol>
 
 
 <p><strong>Notes.</strong><br/>
 Because Jekyll computes the entire site in one fell swoop, each template is given access to
-a global <code>site</code> hash that contains useful data. It is this data that you&#8217;ll iterate through and format
+a global <code>site</code> hash that contains useful data. It is this data that you'll iterate through and format
 using the Liquid tags and filters in order to render it onto a given page.</p>
 
 <p>Remember, in Jekyll you are an end-user. Your API has only two components:</p>
@@ -526,128 +415,8 @@ As noted, our main programming constraint is the fact that our API is limited to
 <h2>Next Steps</h2>
 
 <p>Please take a look at <a href=""></a>
-or jump right into <a href="">Usage</a> if you&#8217;d like.</p>
-</div>
+or jump right into <a href="">Usage</a> if you'd like.</p>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/12/30/hello-world/">Hello World</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/12/29/jekyll-introduction/">Jekyll Introduction</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/nborwankar">@nborwankar</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'nborwankar',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("nitin", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/nitin" class="twitter-follow-button" data-show-count="false">Follow @nitin</a>
-  
-</section>
-
-
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/nborwankar@gmail.com?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Nitin Borwankar -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
